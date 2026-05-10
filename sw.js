@@ -1,14 +1,1 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>revision-tracker</title>
-    <script type="module" crossorigin src="/assets/index-C2uQPqp6.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-nbcXLEfW.css">
-  <link rel="manifest" href="/manifest.webmanifest"></head>
-  <body>
-    <div id="root"></div>
-  </body>
-</html>
+if(!self.define){let e,s={};const i=(i,n)=>(i=new URL(i+".js",n).href,s[i]||new Promise(s=>{if("document"in self){const e=document.createElement("script");e.src=i,e.onload=s,document.head.appendChild(e)}else e=i,importScripts(i),s()}).then(()=>{let e=s[i];if(!e)throw new Error(`Module ${i} didn’t register its module`);return e}));self.define=(n,r)=>{const o=e||("document"in self?document.currentScript.src:"")||location.href;if(s[o])return;let t={};const l=e=>i(e,o),u={module:{uri:o},exports:t,require:l};s[o]=Promise.all(n.map(e=>u[e]||l(e))).then(e=>(r(...e),t))}}define(["./workbox-9c191d2f"],function(e){"use strict";self.skipWaiting(),e.clientsClaim(),e.precacheAndRoute([{url:"index.html",revision:"45834478d7d600792398b6bbac5d7b52"},{url:"assets/workbox-window.prod.es5-Cch4wiA5.js",revision:null},{url:"assets/index-nbcXLEfW.css",revision:null},{url:"assets/index-4zWhT7U8.js",revision:null},{url:"assets/importEdnExcel-Dcqr6p5o.js",revision:null},{url:"manifest.webmanifest",revision:"4739f5fcadc459f8de5259763617bbb1"}],{}),e.cleanupOutdatedCaches(),e.registerRoute(new e.NavigationRoute(e.createHandlerBoundToURL("index.html")))});
