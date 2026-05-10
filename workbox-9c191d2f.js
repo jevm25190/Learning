@@ -1,0 +1,1 @@
+{"name":"Revision Tracker","short_name":"Revisions","description":"Suivi de révisions par matières et items (local sur iPad).","start_url":"/","display":"standalone","background_color":"#ffffff","theme_color":"#ffffff","lang":"en","scope":"/","icons":[{"src":"/vite.svg","sizes":"any","type":"image/svg+xml","purpose":"any"}]}
